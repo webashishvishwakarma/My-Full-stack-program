@@ -1,0 +1,50 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: deeppink;
+    animation-name: colorchange;
+    position: relative;
+    animation-name: 2s;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+    animation-timing-function: ease-in;
+    animation-timing-function: ease-in-out;
+    animation-timing-function: ease-out;
+    animation-direction: alternate-reverse;
+
+
+
+
+
+}
+@keyframes colorchange {
+    0%{background-color: cyan;
+        top: 0px;
+        left: 0px;
+    
+    }
+    25%{background-color: darkgreen;
+    top: 0px;
+    left:100px;
+    
+    }
+    50%{
+        background-color: yellow;
+        top: 100px;
+        left: 100px;
+    }
+    75%{
+        background-color: mediumvioletred;
+        top: 100px;
+        left: 0px;
+
+    }
+    100%{
+        background-color: darkgoldenrod;
+        top: 0px;
+        left: 0px;
+    }
+    
+}

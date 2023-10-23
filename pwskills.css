@@ -1,0 +1,14 @@
+body{
+    background-color: chartreuse;
+}
+
+.heading{
+    color: blueviolet;
+    text-align: center;
+    border: 5px dotted brown;
+}
+.pra{
+    color: black;
+    text-align: center;
+    border: 2px blue;
+}

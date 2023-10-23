@@ -1,0 +1,46 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    animation-name: colorchange;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    position: relative;
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+ @keyframes colorchange {
+    0%{top: 0px;
+        left: 0px;
+        
+        background-color: brown;
+    
+    
+    }
+    25%{top: 0px;
+        left: 200px;
+        background-color: aqua;
+
+
+
+    }
+    50%{top: 200;
+        left: 200;
+        background-color: blueviolet;
+
+
+    }   
+    75%{top: 200px;
+         right: 0px;
+         background-color: darkgoldenrod;
+    
+    
+    } 
+    100%{
+        top: 0px;
+        left: 0px;
+        background-color: teal;
+    }
+
+ }
